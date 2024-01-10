@@ -1,0 +1,280 @@
+body{
+    background: #e8e8e9;
+}
+
+
+
+
+/* Vidget  */
+
+.pulse-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    background: black;
+    box-shadow: 0 5px 35px black;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    outline: none;
+    z-index: 1000;
+    margin-right: -38px;
+
+}
+.pulse-button__rings {
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    animation-duration: 2.0s;
+    animation-name: pulse_1;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+
+
+
+
+.pulse-button__rings:nth-child(2) {
+    animation-name: pulse_2;
+}
+.pulse-button__rings:nth-child(3) {
+    animation-name: pulse_3;
+}
+@keyframes pulse_1 {
+    from {
+        opacity: 1;
+        transform: scale(0.9, 0.9);
+    }
+    to {
+        opacity: 0;
+        transform: scale(1.3, 1.3);
+    }
+}
+@keyframes pulse_2 {
+    from {
+        opacity: 1;
+        transform: scale(0.8, 0.8);
+    }
+    to {
+        opacity: 0;
+        transform: scale(1.5, 1.5);
+    }
+}
+@keyframes pulse_3 {
+    from {
+        opacity: 1;
+        transform: scale(0.8, 0.8);
+    }
+    to {
+        opacity: 0;
+        transform: scale(1.7, 1.7);
+    }
+}
+
+.modal-content {
+box-shadow: -5px 5px 25px #fff;
+}
+
+
+.test22 {
+margin: -55px 0 0 -10px;
+}
+
+
+
+/* Vidjet fin  */
+
+.card {
+    background: #fff;
+
+    box-shadow: -5px 5px 25px #fff;
+    border: 1px solid #fff;
+   
+}
+
+/* Kards */
+.card:hover {
+ box-shadow: 0 5px 35px #0000009d;
+}
+
+.card:active {
+ box-shadow: 0 5px 35px #0000009d;
+}
+
+/* test */
+
+/* Стили для кнопки */
+.btn {
+  border: #fff;
+  border-radius: 18px;
+  padding: 5px 20px;
+  background: linear-gradient(120deg, #3a3a3a, #3a3a3a); /* Градиентный фон кнопки для объемного эффекта */
+  color: #fff; /* Белый цвет текста на кнопке */
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+  padding: 15px; /* Отступы внутри кнопки */
+  box-shadow: 0px 1px 10px #fff; /* Добавляем тень для трехмерного эффекта */
+}
+
+/* Стили для создания блика на кнопке */
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%, /* Прозрачность начала блика */
+    rgba(255, 255, 255, 0.8), /* Цвет блика */
+    rgba(255, 255, 255, 0) 70% /* Прозрачность конца блика */
+  );
+  top: 0;
+  left: -100px;
+  animation: shine 2s infinite linear; /* Анимация блика */
+}
+
+/* Ключевые кадры для анимации блика */
+@keyframes shine {
+  0% {
+    left: -100px; /* Начальная позиция блика (левая сторона кнопки) */
+  }
+  20% {
+    left: 100%; /* Позиция блика в конце (правая сторона кнопки) */
+  }
+  100% {
+    left: 100%; /* Завершение анимации */
+  }
+}
+
+.fa {
+color: white;
+text-decoration: none;
+
+}
+
+.fa:hover {
+color: white;
+text-decoration: none;
+}
+
+.nav-item {
+margin: 0 10px 0 0;
+}
+
+.btn-group {
+margin: 0 10px 0 0;
+}
+/* initial */
+
+
+.px-1 {
+margin: 0 10px 0 0;
+}
+
+
+.container-nav {
+margin: 0 0 0 60px;
+}
+
+.cont-nav {
+margin: 0 15px 0 0;
+}
+
+
+
+
+.img-card {
+width: 65px;
+height: 65px;
+
+}
+
+.name {
+font-size: 24px;
+white-space: nowrap;
+
+}
+
+.img-carousel {
+height: 500px;
+}
+
+
+.container-about {
+background: url('../img/present.jpg') 0 0/100%  no-repeat;
+width: 100%;
+height: 900px;
+}
+
+.biografía  {
+float: left;
+text-align: left;
+width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/* initial */
+
+
+
+/* animation */
+.text-text {
+
+
+}
+
+
+.biograf {
+animation: 2s text-text 2s forwards;
+    transform:translateX(-100%);
+}
+.biografía  {
+animation: 3s text-text 3s forwards;
+    transform:translateX(-100%);
+
+}
+
+@keyframes text-text {
+  to {
+    transform:translateX(0);
+  }
+}
+
+/* animation */
+
+
+.card-img {
+height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
