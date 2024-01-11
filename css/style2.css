@@ -226,8 +226,14 @@ text-align: left;
 width: 50%;
 }
 
+.tel {
+text-decoration:none;
+color: black;
+}
 
-
+.tel:hover {
+  color: red;
+}
 
 
 
