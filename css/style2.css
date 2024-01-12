@@ -229,6 +229,7 @@ width: 50%;
 .tel {
 text-decoration:none;
 color: black;
+
 }
 
 .tel:hover {
@@ -283,6 +284,7 @@ height: 100%;
 
 .footer-phone {
 display: flex;
+
 }
 
 .my-fp {
