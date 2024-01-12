@@ -281,6 +281,13 @@ height: 100%;
 
 }
 
+.footer-phone {
+display: flex;
+}
+
+.my-fp {
+padding: 0 10px 0 0;
+}
 
 
 
@@ -298,10 +305,76 @@ height: 100%;
     margin: auto;
     }
 
+.social-media {
+display: flex;
+}
 
+.footer-phone {
+display: flex;
+padding-left: 50%;
+}
+
+.my-fp {
+padding: 0 10px 0 0;
+}
+
+.tel:hover {
+  color: red;
+}
 
 
 } 
+
+@media (min-width:767px){
+
+  .name {
+  font-size: 18px;
+  }
+}
+
+
+
+
+@media (min-width:845px) and (max-width:1023px){
+.container-nav{
+display: none;
+}
+
+}
+
+@media (max-width:890px) {
+.container-about {
+display: none;
+}
+}
+
+@media (max-width:890px) {
+.container-about2 {
+display: none;
+
+}
+}
+
+
+
+
+
+@media (min-width:1024px) and (max-width:1155px){
+
+  .name {
+  font-size: 18px;
+  }
+}
+
+@media (min-width:1156px) {
+ .name {
+  font-size: 24px;
+  }
+
+}
+
+
+
 
 
 
@@ -319,10 +392,7 @@ height: 100%;
     @media only screen and (min-width: 480px) and (max-width: 767px) {
     
     //CSS Code
-     .name {
-    font-size: 21px !important;
-    
-    }
+   
     }
     
    // For tablet
