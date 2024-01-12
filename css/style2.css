@@ -289,11 +289,48 @@ display: flex;
 padding: 0 10px 0 0;
 }
 
+.menu {
+display: block;
+
+
+} 
+
+.my-media {
+display: flex;
+gap: 21px;
+}
+
 
 
 
 
 /* my media */
+
+@media (min-width:672px){
+.my-media {
+display: none;
+
+
+}
+
+
+
+
+}
+
+@media (max-width:671px){
+
+  .cont-nav {
+  display: none;
+  }
+
+  .navbar-nav {
+  display: none;
+  }
+
+}
+
+
 
 @media (max-width:767px){
  .name {
@@ -331,6 +368,7 @@ padding: 0 10px 0 0;
   font-size: 18px;
   }
 }
+
 
 
 
