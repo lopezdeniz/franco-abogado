@@ -300,6 +300,15 @@ display: flex;
 gap: 21px;
 }
 
+.navbar-nav1 {
+list-style-type: none;
+
+}
+
+
+.telega {
+padding: 0 10px 0 10px;
+}
 
 
 
